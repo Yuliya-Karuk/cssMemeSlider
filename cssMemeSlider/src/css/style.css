@@ -1,0 +1,86 @@
+:root {
+    --color-basic-black: #000000;
+    --color-basic-white: #ffffff;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url("../fonts/Georgia.woff2") format('woff2');
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type=checkbox].visually-hidden,
+input[type=radio].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--color-basic-white);
+}
+
+.wrapper {
+    max-width: 80%;
+    padding: 4rem 2rem;
+    margin: 0 auto
+}
+
+/* HEADER */
+.header {
+    background-color: var(--color-basic-black);
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.header__title {
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: var(--color-basic-black);
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/* MEDIA */
+@media screen and (max-width: 480px) {
+    .wrapper {
+        max-width: 90%;
+    }
+}
