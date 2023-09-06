@@ -19,7 +19,43 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
+        <div class=" wrapper slider">
+            <input class="visually-hidden pagination__input" type="radio" id="first" name="mem" value="first" checked>
+            <input class="visually-hidden pagination__input" type="radio" id="second" name="mem" value="second">
+            <input class="visually-hidden pagination__input" type="radio" id="third" name="mem" value="third">
+            <input class="visually-hidden pagination__input" type="radio" id="fourth" name="mem" value="fourth">
+            <div class="slider__images">
+                <div class="slider__img-wrapper">
+                    <img class="slider__img" src="src/img/mem_1.jpg" alt="1 mem" width="450" height="560">
+                    <img class="slider__img" src="src/img/mem_2.jpg" alt="2 mem" width="450" height="560">
+                    <img class="slider__img" src="src/img/mem_3.png" alt="3 mem" width="450" height="560">
+                    <img class="slider__img" src="src/img/mem_4.jpeg" alt="4 mem" width="450" height="560">
+                </div>
+            </div>
+            <ul class="pagination">
+                <li class="pagination__item">
+                    <label class="pagination__label" for="first">
+                        <span class="pagination__span"></span>
+                    </label>
+                </li>
+                <li class="pagination__item">
+                    <label class="pagination__label" for="second">
+                        <span class="pagination__span"></span>
+                    </label>
+                </li>
+                <li class="pagination__item">
+                    <label class="pagination__label" for="third">
+                        <span class="pagination__span"></span>
+                    </label>
+                </li>
+                <li class="pagination__item">
+                    <label class="pagination__label" for="fourth">
+                        <span class="pagination__span"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
     </main>
     <footer class="footer">
         <div class="wrapper footer__wrapper">

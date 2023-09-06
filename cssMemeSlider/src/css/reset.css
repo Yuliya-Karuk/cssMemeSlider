@@ -39,3 +39,7 @@ fieldset {
     margin: 0;
     border: none;
 }
+
+img {
+    height: auto;
+}
