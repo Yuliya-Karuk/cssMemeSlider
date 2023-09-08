@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="wrapper header__wrapper">
             <div class="header__logo">
                 <img class="header__icon" src="src/img/logo.png" width="32" height="32" alt="header logo">
                 <h1 class="header__title">CssMemeSlider</h1>
@@ -21,11 +21,11 @@
     </header>
     <main class="main">
         <div class="slider">
-            <input class="visually-hidden pagination__input" type="radio" id="first" name="mem" value="first" checked>
-            <input class="visually-hidden pagination__input" type="radio" id="second" name="mem" value="second">
-            <input class="visually-hidden pagination__input" type="radio" id="third" name="mem" value="third">
-            <input class="visually-hidden pagination__input" type="radio" id="fourth" name="mem" value="fourth">
-            <input class="visually-hidden pagination__input" type="radio" id="fifth" name="mem" value="fifth">
+            <input class="pagination__input" type="radio" id="first" name="mem" value="first" checked>
+            <input class="pagination__input" type="radio" id="second" name="mem" value="second">
+            <input class="pagination__input" type="radio" id="third" name="mem" value="third">
+            <input class="pagination__input" type="radio" id="fourth" name="mem" value="fourth">
+            <input class="pagination__input" type="radio" id="fifth" name="mem" value="fifth">
             <div class="slider__images">
                 <div class="slider__images-wrapper">
                     <img class="slider__img" src="src/img/mem1.jpg" alt="1 mem">
@@ -35,49 +35,51 @@
                     <img class="slider__img" src="src/img/mem5.jpg" alt="5 mem">
                 </div>
             </div>
-            <div class="slider__phrases">
-                <div class="slider__phrases-wrapper">
-                    <p class="slider__phrase">When you have submitted a fully completed library#3 task and are waiting for the crosscheck start.</p>
-                    <p class="slider__phrase">When you see the comment of the first reviewer "great job, but there are some mistakes" and there are no details</p>
-                    <p class="slider__phrase">when the second reviewer has his own vision of TS and he wrote a devastating comment and reduced your points by half.</p>
-                    <p class="slider__phrase">When you are trying to communicate with reviewers and return points for the task using the code of conduct</p>
-                    <p class="slider__phrase">When the crosscheck is over and you understand that nerve cells are not restored</p>
+            <div class="slider__content">
+                <div class="slider__phrases">
+                    <div class="slider__phrases-wrapper">
+                        <p class="slider__phrase">When you have submitted a fully completed library#3 task and are waiting for the crosscheck start.</p>
+                        <p class="slider__phrase">When you see the comment of the first reviewer "great job, but there are some mistakes" and there are no details</p>
+                        <p class="slider__phrase">When the second reviewer has his own vision of TS and he wrote a devastating comment and reduced your points by half.</p>
+                        <p class="slider__phrase">When you are trying to communicate with reviewers and return points for the task using the code of conduct</p>
+                        <p class="slider__phrase">When the crosscheck is over and you understand that nerve cells are not restored</p>
+                    </div>
                 </div>
+                <ul class="pagination">
+                    <li class="pagination__item">
+                        <label class="pagination__label" for="first">
+                            <span class="pagination__span"></span>
+                        </label>
+                    </li>
+                    <li class="pagination__item">
+                        <label class="pagination__label" for="second">
+                            <span class="pagination__span"></span>
+                        </label>
+                    </li>
+                    <li class="pagination__item">
+                        <label class="pagination__label" for="third">
+                            <span class="pagination__span"></span>
+                        </label>
+                    </li>
+                    <li class="pagination__item">
+                        <label class="pagination__label" for="fourth">
+                            <span class="pagination__span"></span>
+                        </label>
+                    </li>
+                    <li class="pagination__item">
+                        <label class="pagination__label" for="fifth">
+                            <span class="pagination__span"></span>
+                        </label>
+                    </li>
+                </ul>
             </div>
-            <ul class="pagination">
-                <li class="pagination__item">
-                    <label class="pagination__label" for="first">
-                        <span class="pagination__span"></span>
-                    </label>
-                </li>
-                <li class="pagination__item">
-                    <label class="pagination__label" for="second">
-                        <span class="pagination__span"></span>
-                    </label>
-                </li>
-                <li class="pagination__item">
-                    <label class="pagination__label" for="third">
-                        <span class="pagination__span"></span>
-                    </label>
-                </li>
-                <li class="pagination__item">
-                    <label class="pagination__label" for="fourth">
-                        <span class="pagination__span"></span>
-                    </label>
-                </li>
-                <li class="pagination__item">
-                    <label class="pagination__label" for="fifth">
-                        <span class="pagination__span"></span>
-                    </label>
-                </li>
-            </ul>
         </div>
     </main>
     <footer class="footer">
         <div class="wrapper footer__wrapper">
             <p class="footer__text">2023</p>
-            <a class="link footer__text" href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
-            <a class="link footer__text" href="https://github.com/Yuliya-Karuk">Yuliya</a>
+            <a class="link link_rs footer__text" href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
+            <a class="link link_github footer__text" href="https://github.com/Yuliya-Karuk">Yuliya</a>
         </div>
     </footer>
 </body>
