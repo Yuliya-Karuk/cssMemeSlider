@@ -93,7 +93,6 @@ body {
 }
 
 .slider__images {
-    /* max-width: 70rem; */
     overflow: hidden;
 }
 
@@ -270,4 +269,23 @@ body {
     .footer__text {
         font-size: 1.4rem;
     }
+}
+
+@media (orientation: landscape) {
+    .header {
+        height: 15vh;
+    }
+
+    .main {
+        height: unset;
+    }
+
+    .slider {
+        width: unset;
+    }
+
+    .footer {
+        height: 15vh;
+    }
+
 }
