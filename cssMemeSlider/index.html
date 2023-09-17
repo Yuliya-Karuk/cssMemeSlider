@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/favicon.ico" type="image/ico" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="src/css/normalize.css" rel="stylesheet">
+    <link href="src/css/reset.css" rel="stylesheet">
+    <link href="src/css/style.css" rel="stylesheet">
+    <title>cssMemeSlider</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <div class="header__logo">
+                <img class="header__icon" src="src/img/logo.png" width="32" height="32" alt="header logo">
+                <h1 class="header__title">CssMemeSlider</h1>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="slider">
+            <input class="pagination__input" type="radio" id="first" name="mem" value="first" checked>
+            <input class="pagination__input" type="radio" id="second" name="mem" value="second">
+            <input class="pagination__input" type="radio" id="third" name="mem" value="third">
+            <input class="pagination__input" type="radio" id="fourth" name="mem" value="fourth">
+            <input class="pagination__input" type="radio" id="fifth" name="mem" value="fifth">
+            <div class="slider__images">
+                <div class="slider__images-wrapper">
+                    <div class="slider__img-container">
+                        <img class="slider__img" src="src/img/mem1.jpg" alt="1 mem">
+                    </div>
+                    <div class="slider__img-container">
+                        <img class="slider__img" src="src/img/mem2.jpg" alt="2 mem">
+                    </div>
+                    <div class="slider__img-container">
+                        <img class="slider__img" src="src/img/mem3.jpg" alt="3 mem">
+                    </div>
+                    <div class="slider__img-container">
+                        <img class="slider__img" src="src/img/mem4.jpg" alt="4 mem">
+                    </div>
+                    <div class="slider__img-container">
+                        <img class="slider__img" src="src/img/mem5.jpg" alt="5 mem">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__content">
+                <div class="slider__phrases">
+                    <div class="slider__phrases-wrapper">
+                        <span class="slider__phrase">When you have submitted a fully completed library#3 task and are waiting for the crosscheck start.</span>
+                        <span class="slider__phrase">When you see the comment of the first reviewer "great job, but there are some mistakes" and there are no details</span>
+                        <span class="slider__phrase">When the second reviewer has his own vision of TS and he wrote a devastating comment and reduced your points by half.</span>
+                        <span class="slider__phrase">When you are trying to communicate with reviewers and return points for the task using the code of conduct</span>
+                        <span class="slider__phrase">When the crosscheck is over and you understand that nerve cells are not restored</span>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <label class="pagination__label" for="first">
+                        <span class="pagination__span"></span>
+                    </label>
+                    <label class="pagination__label" for="second">
+                        <span class="pagination__span"></span>
+                    </label>
+                    <label class="pagination__label" for="third">
+                        <span class="pagination__span"></span>
+                    </label>
+                    <label class="pagination__label" for="fourth">
+                        <span class="pagination__span"></span>
+                    </label>
+                    <label class="pagination__label" for="fifth">
+                        <span class="pagination__span"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <p class="footer__text">2023</p>
+            <a class="link link_rs footer__text" href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
+            <a class="link link_github footer__text" href="https://github.com/Yuliya-Karuk">Yuliya</a>
+        </div>
+    </footer>
+</body>
+</html>
